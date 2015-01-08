@@ -13,6 +13,8 @@
 
 <context:component-scan base-package="controller" />
 
+    <context:annotation-config />
+
 <!-- JSR-303 support will be detected on classpath and enabled automatically -->
 <mvc:annotation-driven/>
 
