@@ -1,0 +1,10 @@
+package myapi;
+
+class VoyantaTaskTest {
+
+    @Test
+    public void testVoyanta() {
+        VoyantaTask testTask = new VoyantaTask();
+
+    }
+}
