@@ -4,6 +4,7 @@ package model;
  * Created by takao on 05/01/2015.
  */
 public class RequestBean {
+    private long id;
     private int inputOne;
     private int inputTwo;
     private String operation;
@@ -30,5 +31,13 @@ public class RequestBean {
 
     public void setOperation(String operation) {
         this.operation = operation;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 }
